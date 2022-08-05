@@ -228,3 +228,16 @@ width: 500px;
 .section__hero__item p, h2{
     text-align: center;
 }
+
+.section__old__subject{
+    font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+text-align: start;
+}
+
+.section__old{
+    margin-top: 300px;
+}
