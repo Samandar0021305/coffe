@@ -110,8 +110,6 @@ align-items: center;
 .footer{
     padding: 20px 30px;
     height: 100px;
-    position: sticky;
-    bottom: 0;
 }
 
 .footer__list{
@@ -141,4 +139,30 @@ align-items: center;
 
 .footer__list__link:hover{
     color: #595f66;
+}
+
+.section{
+    background-image: url("../img/Group 13.png");
+    background-repeat: no-repeat;
+    background-size: 100%  196px;
+padding: 60px 0;
+}
+
+
+.section__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.section__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section__item p , h3{
+    text-align: center;
 }
