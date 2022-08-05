@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+
+.navbar--center{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navbar--dark{
+    background-color: black;
+}
+
+.navbar--white{
+    background-color: white;
+}
+
+.navbar__item{
+    text-transform: uppercase;
+}
+
+.navbar__item__link{
+    display: flex;
+    color:#83888F;
+    padding: 5px 15px;
+    transition: 0.4s;
+}
+
+.navbar__item__link:hover{
+    background-color: #83888F;
+    color: rgb(27, 22, 22);
+}
+
+.hero{
+    margin: 0 auto;
+    padding: 30px 50px;
+    background-image: url("../img/hero.png");
+    height: 500px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.hero__subject{
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    width: 470px;
+}
+
+.hero__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    width: 470px;
+    opacity: 0.8;
+}
+
+.hero__btn{
+    transition: 0.4s;
+    background: #0E8784;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.hero__btn:hover{
+    background: #42e0de;
+}
+
+.footer--background{
+    background: #2C343E;
+}
+
+.footer{
+    padding: 20px 30px;
+    height: 100px;
+    position: sticky;
+    bottom: 0;
+}
+
+.footer__list{
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+.footer__list__link{
+    color: #7a8fa8;
+    text-transform: uppercase;
+    display: flex;
+    padding: 10px 20px;
+    transition: 0.4s;
+}
+
+.footer__social__img{
+    display: flex;
+}
+
+.footer__social__img:hover{
+    background: #FDD6BA;
+
+}
+.footer__social__list{
+    width: 18%;
+}
+
+.footer__list__link:hover{
+    color: #595f66;
+}
