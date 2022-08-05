@@ -110,6 +110,7 @@ align-items: center;
 .footer{
     padding: 20px 30px;
     height: 100px;
+    margin-top: 20px;
 }
 
 .footer__list{
@@ -164,5 +165,66 @@ padding: 60px 0;
 }
 
 .section__item p , h3{
+    text-align: center;
+}
+
+.hero__section{
+    background: #2C343E;
+    position: relative;
+    height: 400px;
+}
+
+.section__subject__title{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #FEFCF7;
+}
+
+.section__hero__text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+width: 500px;
+}
+
+.hero__section__intro{
+    padding-top: 90px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section__hero__list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative ;
+}
+
+.section__hero__item{
+    width: 300px;
+    height: 342px;
+    background: #0E8784;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    border-radius: 8px;
+    padding: 30px 20px;
+}
+
+.section__hero__item p, h2{
     text-align: center;
 }
